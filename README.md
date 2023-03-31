@@ -31,6 +31,8 @@ df = pd.read_csv("/content/FlightInformation.csv")
 
 sns.scatterplot (df['Price'],df['Arrival_Time'])
 
+![Screenshot 2023-03-31 115251](https://user-images.githubusercontent.com/121285701/229039958-0640e667-8fa7-4dd4-b65f-731a45daa4b7.png)
+
 ## ii) Numerical & Categorical
 
 Bar Plot
@@ -80,7 +82,10 @@ hm = sn.heatmap(data = data)
 
 plt.show()
 
+![Screenshot 2023-03-31 114118](https://user-images.githubusercontent.com/121285701/229038583-5e0457f6-e54f-417b-9790-d3a9541641ba.png)
+## RESULT:
 
+Thus, Bivariate/Multivariate Analysis is performed successfully.
 
 
 
